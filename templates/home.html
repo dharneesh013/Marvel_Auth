@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home Page
+{% endblock %}
+
+
+{% block content %}
+<br>
+<br>
+<h1 style="text-align:center;">Welcome {{ request.user.username }}</h1>
+<h1 style="text-align:center;">Marvel-Auth status: {{request.user.is_authenticated}}</h1>
+<br>
+<p style="text-align:center;">
+    Hey, Welcome to the Marvel-Authentication platform. <br>Depending on your Marvel-Auth status you will see the 
+    login or logout menu on the top.
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+{% endblock %}
