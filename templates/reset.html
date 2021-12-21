@@ -17,17 +17,10 @@ Password Reset Page
             <br>
             {% include 'pwd.html' %}
 
-
-            <div class="form-group">
-                <small class="text-danger">
-                    Note: All images are unncessary. Only remember the positions
-                </small>
-            </div>
-
             <br>
-
+<br>
             <div class="form-group">
-                <button type="submit" class="btn btn-outline-info">Reset</button>
+                <button style="margin-left: 135px;" type="submit" class="btn btn-outline-info">Reset Password</button>
             </div>
 
         </form>
@@ -45,7 +38,7 @@ Password Reset Page
             document.getElementById(res).style.border = null;
         } else {
             gpwd_set.add(res);
-            document.getElementById(res).style.border = "2px solid red";
+            document.getElementById(res).style.border = "";
         }
 
         console.log(gpwd_set);

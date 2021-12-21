@@ -10,22 +10,45 @@ About Page
 
 <br>
 <br>
-<h1 style="text-align: center;">Marvel - Authentication</h1>
-<br>
-<p style="text-align: center;">
-    Marvel-Authentication was a Graphical Password Authentication platform
-    <br>designed&nbsp; to &nbsp;overcome difficulties &nbsp;raised &nbsp;from the normal&nbsp; text &nbsp;- &nbsp;based
-    <br>Password &nbsp;Authentication&nbsp; system. Register &nbsp; an&nbsp; account  &nbsp;by&nbsp; entering&nbsp; the
-    <br>username, &nbsp;email&nbsp; and &nbsp;select&nbsp; the  &nbsp;grids&nbsp; for  &nbsp;the &nbsp;password. &nbsp;Then login to
-    <br>see the change in Marvel-Auth status. Remember the email registered with
-    <br>the &nbsp;password &nbsp;to&nbsp; receive &nbsp;the &nbsp;notification &nbsp;mail &nbsp; on  &nbsp;reset  &nbsp;password page
-</p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-{% endblock %}
+
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+    <h1 style="text-align: center;" id="demo"></h1>
+    <br>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <p style="text-align: center; font-family: 'Trebuchet MS', sans-serif;">
+            Marvel-Authentication was a Graphical Password Authentication platform
+            designed to overcome difficulties raised from the normal <br>Text - based
+            Password Authentication system. Register an&nbsp; account by &nbsp;entering &nbsp;the
+            Username, &nbsp;email &nbsp;and select &nbsp;the grids for the <br>Password. Then login to
+            See &nbsp;the change in&nbsp; Marvel-Auth status. Remember &nbsp;the email registered with
+            the password to&nbsp; receive the <br>Notification &nbsp;mail on reset password page. Marvel-Auth was
+            a &nbsp;Marvel &nbsp;theme based &nbsp;Graphical Authentication System and it can be<br>of anytype. HTML, CSS and 
+            Django was used to develop this &nbsp;Authentication System. Modifications to the Marvel-Auth was allowed&#10083;
+        </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script>
+        var i = 0;
+        var txt = 'Marvel - Authentication';
+        var speed = 50;
+        (function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        })()
+    </script>
+    {% endblock %}
