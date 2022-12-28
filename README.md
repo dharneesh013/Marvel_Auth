@@ -20,7 +20,6 @@ gh clone [repo link]
 cd [repo name]
 python3 manage.py createsuperuser
 python3 manage.py runserver localhost:8000
-
 ```
 
 ## Result
