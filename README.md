@@ -12,6 +12,9 @@ time when a user login it will ask to select the grids that the user set as a pa
 > Shoulder surfing refers to see what does the user types as a password during login/registartion process. In this login mechanism the selection of
 grids was minimized so it is difficult to estimate the selection of grids for the attacker.
 
+## Installation
+[For installing django in your machine follow these steps](https://docs.djangoproject.com/en/4.1/topics/install/)
+
 ## Result
 
 ![login](https://user-images.githubusercontent.com/77725682/209757952-004e9d6a-2ae0-4105-b928-b3871d03c3f0.jpg)
