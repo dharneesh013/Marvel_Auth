@@ -14,4 +14,3 @@ grids was minimized so it is difficult to estimate the selection of grids for th
 
 ## Output
 
-![](https://github.com/dharneesh013/Marvel_Auth/static/images/pwd/11.png)
