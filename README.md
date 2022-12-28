@@ -16,8 +16,8 @@ grids was minimized so it is difficult to estimate the selection of grids for th
 
 ## Configuration 
 ```
-gh clone [repo link]
-cd [repo name]
+gh repo clone dharneesh013/Marvel_Auth
+cd Marvel_Auth
 python3 manage.py createsuperuser
 python3 manage.py runserver localhost:8000
 ```
