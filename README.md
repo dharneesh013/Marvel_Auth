@@ -11,3 +11,7 @@ time when a user login it will ask to select the grids that the user set as a pa
 ### Shoulder surfing
 > Shoulder surfing refers to see what does the user types as a password during login/registartion process. In this login mechanism the selection of
 grids was minimized so it is difficult to estimate the selection of grids for the attacker.
+
+## Output
+
+![](https://github.com/dharneesh013/Marvel_Auth/static/images/pwd/11.png)
