@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.contrib.auth import authenticate, logout, login
 from django.contrib.auth.models import User
 from django.core.mail import send_mail, EmailMessage
-from graphical_pwd_auth.settings import N, TBA, EMAIL_HOST_USER, ALLOWED_HOSTS
+from settings.settings import N, TBA, EMAIL_HOST_USER, ALLOWED_HOSTS
 from .models import LoginInfo
 import random, uuid
 
