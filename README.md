@@ -15,8 +15,13 @@ grids was minimized so it is difficult to estimate the selection of grids for th
 [For installing django in your machine follow these steps](https://docs.djangoproject.com/en/4.1/topics/install/)
 
 ## Configuration 
+```
+gh clone [repo link]
+cd [repo name]
+python3 manage.py createsuperuser
+python3 manage.py runserver localhost:8000
 
-
+```
 
 ## Result
 
